@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/style_2.css" />
+
+    <!-- Scripts -->
+    <script defer src="scripts/funciones.js"></script>
+  </head>
+  <body>
+    <!-- Nav -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Menú </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto_2.html"> Contacto </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="estadisticas.html"> Estadisticas </a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+   
+
+    <!-- Header -->
+    <section
+      class="container-fluid header-container d-flex justify-content-center py-5"
+    >
+      <p class="display-1 header-title py-5">Te Lo vendo</p>
+    </section>
+
+    <!-- Libros -->
+    <section class="section-genre container-fluid py-5">
+
+        <div class=" container genre-container d-flex flex-wrap justify-content-around">
+          <div class="badge fs-5 px-4 m-3 shadow">Libros de cocina</div>
+          <div class="badge fs-5 px-4 m-3 shadow">Ficción</div>
+          <div class="badge fs-5 px-4 m-3 shadow">Autoayuda</div>
+          <div class="badge fs-5 px-4 m-3 shadow">Clasicos</div>
+          <div class="badge fs-5 px-4 m-3 shadow">Historia</div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Nuestros Productos -->
+    <section id="productos">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="card m-3 col-md-4 col-12 p-0 shadow" style="width: 16rem">
+            <img src="img/libro1.jpg" alt="" class="card-img-top img-fluid" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">Recetario Popular Chileno</h5>
+              <p class="card-text m-0">Alvaro Peralta Sáinz</p>
+              <p class="card-text m-0 fw-bold fs-5">$9.990</p>
+                <a href="#" class="btn btn-primary ml-2">Comprar</a>
+            </div>
+          </div>
+          <div class="card m-3 col-md-4 col-12 p-0 shadow" style="width: 16rem">
+            <img src="img/libro2.jpg" alt="" class="card-img-top img-fluid" />
+            <div class="card-body d-flex flex-column text-center ">
+              <h5 class="card-title ">Romeo y Julieta</h5>
+              <p class="card-text">Alison Oliver</p>
+              <p class="card-text mb-auto fw-bold fs-5">$5.000</p>
+              <a href="#" class="btn btn-primary ml-2 ">Comprar</a>
+            </div>
+          </div>
+          <div class="card m-3 col-md-4 col-12 p-0 shadow" style="width: 16rem">
+            <img src="img/libro3.jpg" alt="" class="card-img-top img-fluid" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">La naranja Mecánica</h5>
+              <p class="card-text">Anthony Burgess</p>
+              <p class="card-text m-0 fw-bold fs-5">$15.990</p>
+                <a href="#" class="btn btn-primary ml-2">Comprar</a>
+            </div>
+          </div>
+          <div class="card m-3 col-md-4 col-12 p-0 shadow" style="width: 16rem">
+            <img src="img/libro4.jpg" alt="" class="card-img-top img-fluid" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">Una Lección Olvidada</h5>
+              <p class="card-text">Guillermo Altares</p>
+              <p class="card-text m-0 fw-bold fs-5">$12.990</p>
+                <a href="#" class="btn btn-primary ml-2">Comprar</a>
+            </div>
+          </div>
+          <div class="card m-3 col-md-4 col-12 p-0 shadow" style="width: 16rem">
+            <img src="img/libro5.png" alt="" class="card-img-top img-fluid" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title ">La Razón de estar contigo</h5>
+              <p class="card-text">W. Bruce Cameron</p>
+              <p class="card-text m-0 fw-bold fs-5">$11.990</p>
+                <a href="#" class="btn btn-primary ml-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <div class="contact-container container-fluid py-5">
+        <div class="card text-center text-bg-dark  w-50 mx-auto border border-primary border-5">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Contáctanos!</h5>
+    <p class="card-text">
+        Fono: 600 400 8080 </br>
+        Email: contacto@telovendo.cl
+    </p>
+    <a href="contacto_2.html" class="btn btn-primary">Formulario</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+  </div>
+</div>
+    </div>
+
+    <!-- Footer -->
+<footer class="container-fluid text-center py-2 pt-3">
+    <p class="footer-text">
+        Integrantes de Equipo: Gabriel Muñoz - Henry Seguel - Giselle Garcia -
+        Gerson Herrera -  Gabriela Apablaza
+      </p>
+      <p class="footer-text">&copy; 2023 Full Stack JAVA M2 - Grupo 4</p>
+
+</footer>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--JS BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

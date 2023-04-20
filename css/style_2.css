@@ -1,0 +1,80 @@
+:root {
+  --color-claro: #efefef;
+  --color-oscuro: #0a3143;
+  --color-complementario: #cecfc9;
+  --color-principal: #276e90;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Nav*/
+
+nav {
+  background-color: #0a3143;
+}
+
+a.nav-link,
+.navbar-brand {
+  color: var(--color-claro) !important;
+}
+
+/* Header */
+
+.header-container {
+  background-color: var(--color-principal);
+}
+
+.header-title {
+  color: white;
+}
+
+.btn-genre {
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--color-principal);
+  color: white;
+  width: 150px;
+  font-weight: bold;
+}
+
+/*Cards*/
+.card {
+  overflow: hidden;
+}
+
+.img-fluid {
+  width: 300px;
+}
+
+.btn-primary,
+.badge {
+  background-color: var(--color-principal);
+}
+
+/* Contacto */
+.contact-container {
+  background-color: var(--color-claro);
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+#tablaStats,
+#tabla {
+  background-color: var(--color-complementario);
+  border: 2px var(--color-principal) solid;
+}
+
+thead {
+  background-color: var(--color-principal);
+  color: white;
+}
